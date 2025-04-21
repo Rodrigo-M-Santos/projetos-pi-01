@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Planner do Síndico</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Planner do Síndico</h1>
+    </header>
+    <div class="container">
+        <main>
+            <section id="demandas">
+                <h2>Demandas</h2>
+                <div id="nova-demanda">
+                    <input type="text" id="titulo-demanda" placeholder="Título da Demanda">
+                    <textarea id="descricao-demanda" placeholder="Descrição da Demanda"></textarea>
+                    <button id="adicionar-demanda">Adicionar Demanda</button>
+                </div>
+                <ul id="lista-demandas">
+                    </ul>
+            </section>
+
+            <section id="arquivos">
+                <h2>Arquivos</h2>
+                <div id="upload-arquivo">
+                    <input type="file" id="input-arquivo" multiple>
+                    <button id="enviar-arquivos">Enviar Arquivos</button>
+                </div>
+                <div id="lista-arquivos">
+                    </div>
+            </section>
+        </main>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
